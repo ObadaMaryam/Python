@@ -17,7 +17,7 @@ set_union = set1.union(set2)
 print(set_union)
 
 #set difference
-set_difference = set1.intersection(set2)
+set_difference = set1.difference(set2)
 print(set_difference)
 
 #set symmetric difference
