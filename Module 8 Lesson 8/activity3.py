@@ -11,7 +11,7 @@ class Parrot:
     
     #method
     def dance(self):
-         return "{} is dancing.format(self.name)"
+         return "{} is dancing".format(self.name)
 
 obj = Parrot("Blu", 5)
 
