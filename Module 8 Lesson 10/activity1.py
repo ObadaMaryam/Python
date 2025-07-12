@@ -14,11 +14,13 @@ class employee(Person):
         self.salary = salary
         self.postion = position
 
+        super().__init__(name,idnumber)
+
     def displayforemployee(self):
         print("Your salary is ", self.salary)
         print("The Position is given in ", self.postion)
 
-obj = employee("Maryam","100,000","Director","1019")
+obj = employee("100,000","Director","Maryam","1019")
 
 obj.displayforemployee()
 obj.display()
