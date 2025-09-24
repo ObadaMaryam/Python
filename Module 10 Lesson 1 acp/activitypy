@@ -1,0 +1,17 @@
+# Function 1: Direct multiplication (1 iteration)
+def multiply_direct (A,B):
+    return A * B
+
+# Function 2: Repeated addition (N iterations)
+def multiply_iterative(A, B):
+    result = 0
+    for _ in range(A):
+        result += B
+    return result
+
+# Main program
+A = int(input("Enter A: "))
+B = int(input("Enter B: "))
+
+print("Result using direct multiplication:", multiply_direct(A, B))
+print("Result using iterative method:", multiply_iterative(A, B))
